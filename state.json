@@ -1,4 +1,14 @@
 {
   "cookies": [],
-  "origins": []
+  "origins": [
+    {
+      "origin": "https://rahulshettyacademy.com",
+      "localStorage": [
+        {
+          "name": "token",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YWRhMTVmMmE5MGE0MTlhYTgyMWQwNTYiLCJ1c2VyRW1haWwiOiJ2aXNoYWxrb3JkZTQ0QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjcwMjAzMDM5ODQsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3OTI2Nzc1NzUsImV4cCI6MTgyNDIzNTE3NX0.Jw_1GjxOGiXGGcKcvDWv6uyXf85t2s0jP_QACWfc5QQ"
+        }
+      ]
+    }
+  ]
 }

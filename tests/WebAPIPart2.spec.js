@@ -11,17 +11,9 @@ test.beforeAll(async({browser})=>{
 
     await page.goto("https://rahulshettyacademy.com/client");
 
-    const email='anshika@gmail.com';
-    const pass='Iamking@000';
-
-    const userName=await page.locator("input#userEmail");
-    const password=await page.locator("input#userPassword");
-    const loginButton=await page.locator("input#login");
-  
-    await userName.fill(email);
-    await password.fill(pass);
-    await loginButton.click();
-
+    await page.locator("input#userEmail").fill("vishalkorde44@gmail.com");
+    await page.locator("input#userPassword").fill("Vishal@9503");
+    await page.locator("input#login").click();
     await page.waitForLoadState('networkidle');
     //storageStage() method
     await context.storageState({path: 'state.json'});
@@ -57,7 +49,6 @@ test('Client app login', async()=>
         }
     }
 
-    console.log("code is here");
 
     await page.locator("[routerlink*='cart']").click();
     await page.locator("div[class=cart] ul").first().waitFor();

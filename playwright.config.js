@@ -10,8 +10,10 @@ const config=({
   //testMatch: 'UIBasicstest.spec.js',
   //testMatch: 'ClientApp.spec.js',
   //testMatch: 'MoreValidations.spec.js',
-  testMatch:'WebAPIPart1.spec.js',
-  //testMatch:'WebAPIPart2.spec.js',
+  //testMatch:'WebAPIPart1.spec.js',
+ // testMatch:'WebAPIPart2.spec.js',
+  //testMatch:'NetworkTest.spec.js',
+  testMatch:'NetworkTest2.spec.js',
 
   //override default wait
   timeout:90*1000,
