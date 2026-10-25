@@ -123,7 +123,7 @@ test('Security test request intercept', async ({ page }) => {
     )
     await page.locator("button:has-text('View')").first().click();
 
-    await page.pause();
+    //await page.pause();
 
 
 
